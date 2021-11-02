@@ -13,10 +13,10 @@ let increment =setInterval(() => {
            if( count==0){
                clearInterval(decrement);
            }
-       }, 1000);
+       }, 2000);
     }
     return count;
-}, 1000);
+}, 2000);
 
 
 
