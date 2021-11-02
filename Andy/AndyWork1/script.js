@@ -3,7 +3,7 @@ const countEl=document.getElementById('count_el');
 let count=0;
 
 let increment =setInterval(() => {
-    count= count+1;
+    count++;
     countEl.innerText=count;
     if(count===10){
         count=10;
