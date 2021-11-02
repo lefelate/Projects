@@ -17,6 +17,7 @@ let increment =setInterval(() => {
            }
        }, 2000);
     }
+    
     return count;
 }, 2000);
 
