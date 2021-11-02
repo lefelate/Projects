@@ -1,6 +1,7 @@
 const countEl=document.getElementById('count_el');
 
 let count=0;
+
 let increment =setInterval(() => {
     count= count+1;
     countEl.innerText=count;
